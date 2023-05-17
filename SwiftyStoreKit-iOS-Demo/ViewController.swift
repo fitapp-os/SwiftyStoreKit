@@ -302,6 +302,9 @@ extension ViewController {
             default:
                 return alertWithTitle("Purchase failed", message: (error as NSError).localizedDescription)
             }
+        case .deferred(let purchase):
+            print("Purchase Deferred: \(purchase.productId)")
+            return nil
         }
     }
 
