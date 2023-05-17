@@ -116,10 +116,10 @@
 		65F7DF8F1DCD524300835D30 /* SwiftyStoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6502F62D1B985C40004E342D /* SwiftyStoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4FD3A101C2954CD0035CFF3 /* SwiftyStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */; };
 		C4FD3A111C2954CD0035CFF3 /* SwiftyStoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D5A479A32A14D5DC0025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */; };
-		D5A479A42A14D5DC0025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */; };
-		D5A479A52A14D5DC0025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */; };
-		D5A479A62A14D5DC0025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */; };
+		D5A479BD2A14EF150025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */; };
+		D5A479BE2A14EF150025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */; };
+		D5A479BF2A14EF150025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */; };
+		D5A479C02A14EF150025733C /* CodeRedemptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,7 +255,7 @@
 		A61BF4DD2481F4970017D9BC /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FD3A011C2954C10035CFF3 /* SwiftyStoreKit_macOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyStoreKit_macOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedemptionController.swift; sourceTree = SOURCE_ROOT; };
+		D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeRedemptionController.swift; path = Sources/SwiftyStoreKit/CodeRedemptionController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +352,7 @@
 		6502F6001B985833004E342D /* SwiftyStoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				D5A479BC2A14EF150025733C /* CodeRedemptionController.swift */,
 				2F2B8B2224A64CC000CEF088 /* AppleReceiptValidator.swift */,
 				2F2B8B2624A64CC000CEF088 /* CompleteTransactionsController.swift */,
 				2F2B8B2324A64CC000CEF088 /* InAppProductQueryRequest.swift */,
@@ -368,7 +369,6 @@
 				2F2B8B2E24A64CC100CEF088 /* SwiftyStoreKit.swift */,
 				2F2B8B2524A64CC000CEF088 /* SwiftyStoreKit+Types.swift */,
 				65F7DF931DCD536100835D30 /* Platforms */,
-				D5A479A22A14D5DC0025733C /* CodeRedemptionController.swift */,
 			);
 			path = SwiftyStoreKit;
 			sourceTree = "<group>";
@@ -847,7 +847,7 @@
 				2F2B8B4E24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3224A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5A24A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
-				D5A479A52A14D5DC0025733C /* CodeRedemptionController.swift in Sources */,
+				D5A479BF2A14EF150025733C /* CodeRedemptionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,7 +880,7 @@
 				2F2B8B4C24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3024A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5824A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
-				D5A479A32A14D5DC0025733C /* CodeRedemptionController.swift in Sources */,
+				D5A479BD2A14EF150025733C /* CodeRedemptionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,7 +931,7 @@
 				2F2B8B4F24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3324A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5B24A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
-				D5A479A62A14D5DC0025733C /* CodeRedemptionController.swift in Sources */,
+				D5A479C02A14EF150025733C /* CodeRedemptionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -954,7 +954,7 @@
 				2F2B8B4D24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3124A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5924A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
-				D5A479A42A14D5DC0025733C /* CodeRedemptionController.swift in Sources */,
+				D5A479BE2A14EF150025733C /* CodeRedemptionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
